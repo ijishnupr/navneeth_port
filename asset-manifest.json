@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/jishnu/static/css/main.1e4e1935.css",
+    "main.js": "/jishnu/static/js/main.8399eeb6.js",
+    "static/js/787.d2da481a.chunk.js": "/jishnu/static/js/787.d2da481a.chunk.js",
+    "static/media/contact.jpg": "/jishnu/static/media/contact.a3b35735967c0ead7e7a.jpg",
+    "index.html": "/jishnu/index.html",
+    "main.1e4e1935.css.map": "/jishnu/static/css/main.1e4e1935.css.map",
+    "main.8399eeb6.js.map": "/jishnu/static/js/main.8399eeb6.js.map",
+    "787.d2da481a.chunk.js.map": "/jishnu/static/js/787.d2da481a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e4e1935.css",
+    "static/js/main.8399eeb6.js"
+  ]
+}
