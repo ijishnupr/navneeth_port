@@ -7,6 +7,7 @@ import Skills from './components/skills';
 import Contactme from './components/contactme';
 import Footer from './components/footer';
 import Projects from './components/projects';
+import Experience from './components/experience';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
    <Page/>
    <About/>
    <Skills/>
+   <Experience/>
   <Projects/>
    <Contactme/>
    <p style={{textAlign:'center',paddingTop:'60px'}}>Thank you for scrolling till end :)</p>

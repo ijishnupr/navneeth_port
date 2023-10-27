@@ -1,5 +1,7 @@
 import { Fragment } from "react";
 import resume from './img/resume.pdf'
+import { AttentionSeeker, Fade, Slide } from "react-awesome-reveal";
+
 function About() {
     const handleDownload = () => {
         ;
@@ -18,16 +20,21 @@ function About() {
         <div className="container" style={{height:'120vh'}}>
             <div className="row">
                 <div className="col mt-5">
+
                     <p className="small text-center">who ?</p>
+                    <Slide>
                     <h1 className="text-center mt-3">About me</h1>
+                    </Slide>
                     <div className="col mx-auto d-block">
                         <div className="about" >
                             <p className="mt-5">
+<Fade>
 
                                 Hello! I'm Jishnu pr, i'm a 21 years old aspiring Web Developer driven by my 
                                 passion for web development and constantly exploring new technologies and seeking knowledge to become a skilled 
                                 web developer. I'm horning my skills and gaining valuable experience in the field of 
                                 computer science. 
+</Fade>
                             </p>
 
 
@@ -35,8 +42,12 @@ function About() {
 
 
                         </div>
+                        <AttentionSeeker effect="shake">
+
                        <button className="btn btn-outline-light mt-5" onClick={handleDownload} handleDownload>Get resume</button>
-                        <img style={{float:"right"}} src='https://camo.githubusercontent.com/97d0c0c4209208d8ec9573c7e213e05872a9f59b703868647b559b77af601cc6/68747470733a2f2f692e70696e696d672e636f6d2f6f726967696e616c732f65382f66342f35332f65386634353334363961336563393765636433353464663436356437333931332e676966' className="aboutimg mt-3" />
+                        </AttentionSeeker>
+                        <a href=" https://www.fiverr.com/jishnu__pr" className="btn btn-outline-success mt-5 ">Hire me on fiverr.</a>
+                        <img style={{float:"right"}} src='https://camo.githubusercontent.com/97d0c0c4209208d8ec9573c7e213e05872a9f59b703868647b559b77af601cc6/68747470733a2f2f692e70696e696d672e636f6d2f6f726967696e616c732f65382f66342f35332f65386634353334363961336563393765636433353464663436356437333931332e676966' alt="img" className="aboutimg mt-1" />
 
 
                     </div>

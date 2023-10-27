@@ -1,4 +1,5 @@
 import { Fragment } from "react";
+import { AttentionSeeker, Hinge } from "react-awesome-reveal";
 
 function Skills() {
 
@@ -6,7 +7,11 @@ function Skills() {
         <div id="skill" className="container-fluid">
             <p className="small text-center mt-5">why ?</p>
                 <h2 className="skillhead">SKILLS</h2>
+
             <div className="row justify-content-center">
+             
+            <AttentionSeeker effect="shake">
+
                 <div className="col  box">
                     <h3>Languages</h3>
                     <ul>
@@ -17,6 +22,8 @@ function Skills() {
                         <li>SQL</li>
                     </ul>
                 </div>
+            
+
                 <div className="col  box">
                     <h3>Framework</h3>
                     <ul>
@@ -25,6 +32,7 @@ function Skills() {
                         <li>Bootstrap</li>
                     </ul>
                 </div>
+              
                 <div className="col  box">
                     <h3>Tools</h3>
                     <ul>
@@ -36,6 +44,7 @@ function Skills() {
                         <li>Docker</li>
                     </ul>
                 </div>
+            </AttentionSeeker>
             </div>
         </div>
     </Fragment>
