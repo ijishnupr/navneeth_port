@@ -1,4 +1,4 @@
-import { Roll } from 'react-awesome-reveal';
+import { Roll, Zoom } from 'react-awesome-reveal';
 import './css/projects.css'
 
 function Projects() {
@@ -12,7 +12,7 @@ function Projects() {
             </div>
         </div>
         <div className='row justify-content-center'>
-            <Roll>
+            <Zoom>
 
             <div className='col service-box' onClick={() => { window.location.href = 'https://curemart.netlify.app/' }}>
                 <div className='proj-head'>
@@ -54,7 +54,7 @@ function Projects() {
                 </div>
             </div>
 
-            </Roll>
+            </Zoom>
         </div>
 
     </div>

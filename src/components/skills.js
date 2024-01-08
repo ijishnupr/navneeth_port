@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import { AttentionSeeker, Hinge } from "react-awesome-reveal";
+import { AttentionSeeker, Hinge, Zoom } from "react-awesome-reveal";
 
 function Skills() {
 
@@ -10,7 +10,7 @@ function Skills() {
 
             <div className="row justify-content-center">
              
-            <AttentionSeeker effect="shake">
+           <Zoom>
 
                 <div className="col  box">
                     <h3>Languages</h3>
@@ -44,7 +44,7 @@ function Skills() {
                         <li>Docker</li>
                     </ul>
                 </div>
-            </AttentionSeeker>
+            </Zoom>
             </div>
         </div>
     </Fragment>
