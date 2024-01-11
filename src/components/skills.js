@@ -5,7 +5,7 @@ function Skills() {
 
     return <Fragment>
         <div id="skill" className="container-fluid">
-            <p className="small text-center mt-5">why ?</p>
+            <p className="small text-center">why ?</p>
                 <h2 className="skillhead">SKILLS</h2>
 
             <div className="row justify-content-center">
