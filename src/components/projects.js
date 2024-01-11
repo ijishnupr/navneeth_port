@@ -9,6 +9,7 @@ function Projects() {
             <div className='col mt-5'>
                 <p className='small mt-5 text-center'>what ?</p>
                 <h2 className="skillhead">Projects</h2>
+                <p className='small text-center text-warning'> click to use the project</p>
             </div>
         </div>
         <div className='row justify-content-center'>
@@ -51,6 +52,17 @@ function Projects() {
                     <p className='badge badge-danger'>HTML</p>
                     <p className='badge badge-primary'>CSS</p>
                     <p className=' badge badge-warning'>JS</p>
+                </div>
+            </div>
+            <div className='col service-box' onClick={() => { window.location.href = 'https://highonbuzz.netlify.app/' }}>
+                <div className='proj-head'>High on buzz</div>
+                <div className='proj-body'>
+                    A platform that connects influencers with brands and brands with influencers for collaboration.</div>
+                <div className='proj-foot'>
+                <p className='badge badge-success'>django</p>
+                    <p className='badge badge-info'>react</p>
+                    <p className='badge badge-primary'>css</p>
+                    <p className='badge' style={{ backgroundColor: '#563d7c' }} >Bootstrap</p>
                 </div>
             </div>
 
