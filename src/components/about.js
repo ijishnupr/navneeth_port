@@ -55,7 +55,7 @@ function About() {
 
 
                         <button className="btn btn-outline-light small mt-5" onClick={handleDownload} handleDownload><small>download resume</small></button>
-                        &nbsp;  &nbsp; <a className="btn btn-primary small mt-5" href='https://docs.google.com/document/d/13-HlfmmCY1FNNKLK_eawJC-ypdjmoDpZTiU_1F9qxUY/edit?usp=sharing'><small>View resume</small></a>
+                        {/* &nbsp;  &nbsp; <a className="btn btn-primary small mt-5" href='https://docs.google.com/document/d/13-HlfmmCY1FNNKLK_eawJC-ypdjmoDpZTiU_1F9qxUY/edit?usp=sharing'><small>View resume</small></a> */}
 
                         {/* &nbsp;  &nbsp;<a href=" https://www.fiverr.com/jishnu__pr" className="btn btn-outline-success small mt-5 "><small>Hire me on fiverr.</small></a>
                         &nbsp;  &nbsp;<a href=" https://www.peopleperhour.com/freelancer/technology-programming/jishnu-pr-full-stack-developer-zaqmvqaz?ref=hireme&rfrd=10584501.2" className="btn btn-outline-warning mt-5"> <small>Hire me on peopleperhour</small></a> */}
