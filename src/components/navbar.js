@@ -6,7 +6,7 @@ function Header() {
 
     return <nav className="navbar navbar-expand-sm navbar-light na">
         <div className="navbar-brand text-light" >
-            <p>Jishnu pr</p>
+            <p>Navneeth P Gopan</p>
             
         </div>
         <button
@@ -30,9 +30,9 @@ function Header() {
                 <li className="nav-item">
                   <a className='nav-link text-white small'>HOME</a>
                 </li>
-                <li>
+                {/* <li>
                     <a href='#expeirence' className='nav-link text-white small'>EXPERIENCE</a>
-                </li>
+                </li> */}
                 <li className="nav-item">
                   <a href='#project' className='nav-link text-white small'>PROJECT</a>
                 </li>

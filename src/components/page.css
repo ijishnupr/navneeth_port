@@ -83,13 +83,13 @@
 @keyframes trans {
   0%, 40.5% {
     transform: translateY(0%);
-    content: 'Jishnu';
+    content: 'Navneeth';
     opacity: 1;
   }
   
   41.5%, 42% {
     transform: translateY(-22%);
-    content: 'Jishnu';
+    content: 'Navneeth';
     opacity: 0.6;
   }
   42%,42.5%{
@@ -105,13 +105,13 @@
   
   90.5%, 91% {
     transform: translateY(12%);
-    content: 'Jishnu';
+    content: 'Navneeth';
     opacity: 0.6;
   }
   
   91.5%, 100% {
     transform: translateY(0%);
-    content: 'Jishnu';
+    content: 'Navneeth';
     opacity: 1;
   }
 }

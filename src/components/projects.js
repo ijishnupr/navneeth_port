@@ -17,7 +17,7 @@ function Projects() {
 
             <div className='col service-box' onClick={() => { window.location.href = 'https://curemart.netlify.app/' }}>
                 <div className='proj-head'>
-                    curemart
+                CAR REVIEW SYSTEM
                 </div>
                 <div className='proj-body'>
                     A medical-store management system with token based user authentication and authorization

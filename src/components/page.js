@@ -8,7 +8,7 @@ import img from './img/developer.gif';
 
 function Page() {
   const [index, setindex] = useState(0)
-  const text = ["Hi i'm Jishnu", "I'm a fullstack developer"]
+  const text = ["Hi i'm Navneeth", "I'm a Cyber Security Analyst"]
 
   useEffect(() => {
     const intervalId = setInterval(
