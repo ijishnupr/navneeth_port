@@ -30,6 +30,7 @@ function Skills() {
                         <li>Django</li>
                         <li>React</li>
                         <li>Bootstrap</li>
+                        <li>FastAPI</li>
                     </ul>
                 </div>
               
@@ -39,9 +40,10 @@ function Skills() {
                         <li>Git</li>
                         <li>MYSQL</li>
                         <li>npm</li>
-                        <li>Figma</li>
-                        <li>Sass</li>
+                        <li>PgAdmin</li>
                         <li>Docker</li>
+                        <li>AWS</li>
+                        <li>Digital Ocean</li>
                     </ul>
                 </div>
             </Zoom>

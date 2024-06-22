@@ -14,12 +14,29 @@ export default function Experience(){
                 <h2 id="expeirence" className="skillhead">EXPERIENCE</h2>
 
 <VerticalTimeline>
+<VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    contentStyle={{ background: '#0B2447', color: '#fff' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+    date="5/2024 -present "
+    iconStyle={{ background: '#0B2447', color: '#fff' }}
+    icon={<FontAwesomeIcon icon="fa-brands fa-react" />}
+    >
+        
+    <h3 className="vertical-timeline-element-title">Backend 
+      Developer
+    </h3>
+    <h4 className="vertical-timeline-element-subtitle">Kochi, Kerala</h4>
+    <p>
+     Backend Developer, Regal
+    </p>
+  </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    contentStyle={{ background: '#19376D', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-    date="2023 - present"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    date="8/2023 -5/2024 "
+    iconStyle={{ background: '#19376D', color: '#fff' }}
     icon={<FontAwesomeIcon icon="fa-brands fa-react" />}
     >
         
@@ -31,11 +48,11 @@ export default function Experience(){
   </VerticalTimelineElement>
   <VerticalTimelineElement
   className="vertical-timeline-element--work"
-  contentStyle={{ background: '#AE3905', color: '#fff' }}
+  contentStyle={{ background: '#576CBC', color: '#fff' }}
   contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
     
-    date="10/2020-22/2023"
-    iconStyle={{ background: 'Red', color: '#fff' }}
+    date="5/2023-8/2023"
+    iconStyle={{ background: '#576CBC', color: '#fff' }}
     
     >
     <h3 className="vertical-timeline-element-title">Developer Intern</h3>
